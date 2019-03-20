@@ -28,9 +28,9 @@
 | ResNet50 | 35.5(36.4) | 26h (4 titanxp , distributed) | 
 | ResNet101 |  |
 #### ResNet50
-![faster_rcnn_r50](./imgs/faster_rcnn_r50.png)
+![faster_rcnn_r50](imgs/faster_rcnn_r50.png)
 
-![faster_rcnn_r50](./imgs/faster_rcnn_r50_log.png)
+![faster_rcnn_r50](imgs/faster_rcnn_r50_log.png)
 ***
 
 ### 2. Cascade-RCNN(FPN)
@@ -40,9 +40,9 @@
 | ResNet50 | 40.5(40.3) | 34h (8 titanxp , nondistributed) |
 | ResNet101 |  |
 #### ResNet50
-![cascade_rcnn_r50](./imgs/cascade_rcnn_r50.png)
+![cascade_rcnn_r50](imgs/cascade_rcnn_r50.png)
 
-![cascade_rcnn_r50](./imgs/cascade_rcnn_r50_log.png)
+![cascade_rcnn_r50](imgs/cascade_rcnn_r50_log.png)
 ***
 
 ### 3. RetinaNet
@@ -51,6 +51,6 @@
 | ResNet50 | 35.6(35.8)  | 25h(4 titanxp , distributed) |
 | ResNet101 |  |
 
-![retinaNet_r50](./imgs/retinaNet_r50.png)
+![retinaNet_r50](imgs/retinaNet_r50.png)
 
-![retinaNet_r50](./imgs/retinaNet_r50_log.png)
+![retinaNet_r50](imgs/retinaNet_r50_log.png)
