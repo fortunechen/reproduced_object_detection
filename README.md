@@ -3,22 +3,22 @@
 ## To do list:
 ### Two stages:
 | backbone | name | FPN | cascade | GN | tricks | AP50:90 |
-| :--- | :----: | :---: | :---: | :----: | :----: | ---: |
+| :--- | :----: | :---: | :---: | :----: | :----: | :---: |
 | res50| Faster RCNN  | ✔ |   |   |    | 35.5 | 
 | res50| Faster RCNN  | ✔ | ✔ |   |    | 40.5 |	
 | res50| Faster RCNN  | ✔ | ✔ |	✔ |
-| res101| Faster RCNN | ✔
-| res101| Faster RCNN | ✔ | ✔ |	
-| res101| Faster RCNN | ✔ | ✔ |	✔ |
+| res101| Faster RCNN | ✔ |   |   |    |      |
+| res101| Faster RCNN | ✔ | ✔ |	  |    |      |
+| res101| Faster RCNN | ✔ | ✔ |	✔ |    |      |
 ### One stage:
 | backbone | name | tricks |AP50:90 |
-| :--- | :----: | :---: | :---: | :----: |----: |
-| res50  | RPN       |  |
+| :--- | :----: | :---: | :---: | 
+| res50  | RPN       |  |        |
 | res50  | RetinaNet |  |	35.6 |
-| res50  | RPN       |  |
-| res101 | RetinaNet |  |
-| VGG16  | SSD300    |  |	
-| VGG16  | SSD512    |  |
+| res50  | RPN       |  |        | 
+| res101 | RetinaNet |  |        |
+| VGG16  | SSD300    |  |	     | 
+| VGG16  | SSD512    |  |        |
 
 
 ---
