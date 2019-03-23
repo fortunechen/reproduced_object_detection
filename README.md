@@ -3,7 +3,7 @@
 ## To do list:
 ### Two stages:
 | backbone | name | FPN | cascade | tricks | AP50:90 |
-| :--- | :----: | :---: | :---: | :----: | :----: | :---: |
+| :--- | :----: | :---: | :---: | :----: | :----: | 
 | res50| Faster RCNN  | ✔ |   |   |  35.5 | 
 | res50| Faster RCNN  | ✔ | ✔ |   |  40.5 |	
 | res101| Faster RCNN | ✔ |   |   |       |
@@ -21,7 +21,7 @@
 | backbone | name | tricks | AR100 | AR300 | AR1000 |
 | :--- | :----: | :---: | :---: |:---: |:---: |
 | res50  | RPN  |  | 0.4282 | 0.5144 | 0.5725 |
-| res101  | RPN |  |        | 
+| res101  | RPN |  |        |        |        |
 
 
 ***
@@ -57,6 +57,8 @@
 
 #### ResNet101
 ![retinaNet_r101](imgs/retinaNet_r101.png)
+
+***
 
 ### 4. SSD
 | image size | AP 0.50:0.95 | training time |
